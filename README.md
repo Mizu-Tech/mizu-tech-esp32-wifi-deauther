@@ -11,7 +11,7 @@
 <br>
 <br>
 
-<h1 align="left">ESP32 WIFI DEAUTHER</h1>
+<h1 align="left">ESP32 WIFI DEAUTHER 2.4GHz</h1>
 <h4 align="left">
 This firmware is quite powerful for disconnecting clients from Wi-Fi. You only need the SSID, BSSID, and Channel to perform deauthentication.
 </h4>
@@ -40,74 +40,22 @@ Firmware : esp32-deauther-v4.0
 <blockquote>
 <a href="https://flasher-esp32-wifi-deauther.vercel.app/">Web flasher</a>
 </blockquote>
-<h4 align="left">Paid flasher cannot be accessed if using a github account that is not registered as a buyer.</h4>
+<h4 align="left">Flasher cannot be accessed if using a github account that is not registered as a buyer.</h4>
 
 <h1 align="left">Features</h1>
-<h4 align="left"> <b> Firmware : esp32-jammer-lcd-v1.0 </b> </h4>
 <p align="left">
 <ul>
-<li>2 or 3 NRF support</li>
-<li>Plug n Play</li>
-<li>LCD display</li>
-<li>Target ch 1 - 14 only</li>
-<li>One single mode (Cross)</li>
+<li>Deauthentication</li>
+<li>Evil Twin</li>
+<li>Beacon Spam</li>
+<li>Password Catcher (with Evil Twin)</li>
 </ul>
-
-<h4 align="left"><b>Firmware : esp32-jammer-lcd-v4.0</b></h4>
-<ul>
-  <li>2 or 3 NRF support</li>
-  <li>Plug n Play</li>
-  <li>LCD display</li>
-  <li>Two technique attacks (Hopping & Cross)</li>
-  <li>8 attacks mode (4 for 1 technique)</li>
-  <li>WiFi mode</li>
-  <li>BLE mode</li>
-  <li>Drone mode</li>
-  <li>Fullband mode</li>
-  <li>Push button support</li>
-</ul>
-
-<h4 align="left"><b>Firmware : esp32-jammer-oled-v4.0</b></h4>
-<ul>
-  <li>2 or 3 NRF support</li>
-  <li>Plug n Play</li>
-  <li>OLED display</li>
-  <li>Cross mode</li>
-  <li>Hopping mode</li>
-  <li>Hunter mode</li>
-  <li>Sequential mode</li>
-  <li>Spectrum analyzer</li>
-  <li>Push button support</li>
-</ul>
-
-<h1 align="left">DEMO</h1>
-Watch this video to see how this tool works
-<a href="https://www.tiktok.com/@azfamahardika__/video/7633529801629797640?is_from_webapp=1&sender_device=pc&web_id=7642704300384585223">DEMO video</a> <br>
 
 <h1 align="left">Requirements Device</h1>
-<h3 align="left">Primary components</h3>
 <ul>
   <li>ESP32 WROOM 32U</li>
-  <li>128x64 OLED Display I2C (For oled version)</li>
-  <li>LCD 16x2 I2C (For lcd version)</li>
-  <li>3x NRF24 Modules (Recommended to use Ebyte ML01DP5)</li>
-  <li>3x 2.4GHz Antenna SMA-Male</li>
-  <li>Push button</li>
-  <li>Power source (Battery)</li>
+  <li>2.4GHz SMA antenna U.FL connector</li>
 </ul>
-<h3 align="left">Secondary components</h3>
-<ul>
-  <li>Boost converter (MT3068)</li>
-  <li>TP4056</li>
-  <li>3x Capacitor elco 100uf</li>
-  <li>2x Capacitor elco 1.000uf</li>
-  <li>Toggle switch</li>
-  <li>NRF24 adapter</li>
-  <li>Jumper wires</li>
-</ul> <br>
-
-Note
-<br>
 <blockquote>You can find the components in the marketplace.</blockquote>
 
 <h1 align="left">Instructions</h1>
