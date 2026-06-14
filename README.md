@@ -11,34 +11,21 @@
 <br>
 <br>
 
-<h1 align="left">ESP32 WIFI BLUETHOOTH JAMMER 2.4GHz</h1>
+<h1 align="left">ESP32 WIFI DEAUTHER</h1>
 <h4 align="left">
-There are three firmware versions each of them can be compiled with a web flasher. One is free as a trial while the other two are paid versions which I use to buy a coffee☕
+This firmware is quite powerful for disconnecting clients from Wi-Fi. You only need the SSID, BSSID, and Channel to perform deauthentication.
 </h4>
 
 <h1 align="left">Firmware Price List</h1>
 <blockquote>
 <h4 align="left">
-<b>esp32-jammer-lcd-v1.0</b><br>
-Price : Free
-</h4>
-</blockquote>
-
-<blockquote>
-<h4 align="left">
-<b>esp32-jammer-lcd-v4.0</b><br>
+<b>esp32-deauther-v4.0</b><br>
 Price : IDR 20.000 ($1)
 </h4>
 </blockquote>
 
-<blockquote>
-<h4 align="left">
-<b>esp32-jammer-oled-v4.0</b><br>
-Price : IDR 20.000 ($1)
-</h4>
-</blockquote>
 <br>
-Just pay once and you can access both firmware from the web flasher. For payment, you can DM me on social media section at the bottom. If you have purchased the firmware, I consider you have donated to me. 
+The firmware is paid, to access the flasher you have to buy the firmware first then you can open the web flasher. For payment, you can DM me on social media section at the bottom. If you have purchased the firmware, I consider you have donated to me. 
 <br>
 <br>
 Thank you for your support ^_^
