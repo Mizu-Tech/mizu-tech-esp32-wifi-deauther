@@ -61,8 +61,8 @@ Firmware : esp32-deauther-v4.0
 <h1 align="left">Instructions</h1>
 <h3 align="left">➤ STEP 1 : Wiring </h3>
 <h4 align="left">ESP32 WROOM 32U</h4>
-<img src="hardware/esp32_wroom-32u.png" width="800">
-<img src="hardware/nrf24l01.png" width="800">
+<img src="hardware/esp32_wroom-32u.jpg" width="400">
+<img src="hardware/ufl_antenna.jpeg" width="400">
 You can also use the ML01DP5 module, the pin configuration is exactly the same as the NRF24L01.
 <h1></h1>
 
