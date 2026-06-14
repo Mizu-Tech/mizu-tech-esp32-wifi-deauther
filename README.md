@@ -114,10 +114,10 @@ After a successful installation, you can turn on the device and ready to use.
 <h3 align="left"> NOTE !! </h3>
 <blockquote>If the device cannot connect to wifi, turn off VPN and custom DNS, make sure the web panel is opened in a site state without SSL/TLS (don't worry, this is just localhost).</blockquote>
 <blockquote>If the web panel is still inaccessible (usually on an iPhone), you just need to tinker with the Network settings, this happens because the system considers the web panel a threat.</blockquote>
-<blockquote>Turn off your cellular data if you access the web panel using a smartphone, make sure the device is offline and only connected to the ESP32 internal wifi.</blockquote>
-<blockquote>If you access the panel using a desktop, use a chrome extension to force the web panel to disable SSL/TLS (force HTTP).</blockquote>
-<blockquote>Don't spam commands; wait for one process to complete before executing another. It's recommended to execute "STOP ALL ATTACKS" first.</blockquote>
 <blockquote>If you want to execute a command, always make sure the device is connected to the ESP32's internal WiFi first and also make sure the device is offline.</blockquote>
+<blockquote>If you access the panel using a desktop, use a chrome extension to force the web panel to disable SSL/TLS (force HTTP).</blockquote>
+<blockquote>Turn off your cellular data if you access the web panel using a smartphone, make sure the device is offline and only connected to the ESP32 internal wifi.</blockquote>
+<blockquote>Don't spam commands; wait for one process to complete before executing another. It's recommended to execute "STOP ALL ATTACKS" first.</blockquote>
 
 <h1 align="left">Similiar Project</h1>
 <a href="https://github.com/Mizu-Tech/mizu-tech-esp32-wifi-ble-jammer.git">ESP32 Jammer</a>
