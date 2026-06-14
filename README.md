@@ -88,7 +88,7 @@ After a successful installation, you can turn on the device and ready to use.
 
 <h3 align="left"> HOW TO USE ?</h3>
 <ul>
-  <li>Once the device is powered on, go to wifi settings and connect your device to the SSID "Galaxy A55 5G", this is the internal wifi alias of the ESP32 and this is just localhost</li>
+  <li>Once the device is powered on, go to wifi settings and connect your device to the SSID "Galaxy A55 5G" or "ESP32", this is the internal wifi alias of the ESP32 and this is just localhost</li>
   <li>After connected to wifi, open your browser and go to page 199.125.24.3 (it is recommended to open it using Chrome)</li>
   <li>After the IP is entered, the browser will display a panel
     
@@ -97,9 +97,9 @@ After a successful installation, you can turn on the device and ready to use.
 </ul>
 <br> NOTE
 <blockquote>If the device cannot connect to wifi, turn off VPN and custom DNS, make sure the web panel is opened in a site state without SSL/TLS (don't worry, this is just localhost).</blockquote>
-<blockquote>If the web panel is still inaccessible (usually on an iPhone), you just need to tinker with the Network settings, this happens because the system considers the web panel a threat</blockquote>
-<blockquote>Turn off your cellular data if you access the web panel using a smartphone, make sure the device is offline and only connected to the "Galaxy A55 5G" wifi.</blockquote>
-<blockquote>If you access the panel using a desktop, use a chrome extension to force the web panel to disable SSL/TLS (force HTTP)</blockquote>
+<blockquote>If the web panel is still inaccessible (usually on an iPhone), you just need to tinker with the Network settings, this happens because the system considers the web panel a threat.</blockquote>
+<blockquote>Turn off your cellular data if you access the web panel using a smartphone, make sure the device is offline and only connected to the ESP32 internal wifi.</blockquote>
+<blockquote>If you access the panel using a desktop, use a chrome extension to force the web panel to disable SSL/TLS (force HTTP).</blockquote>
 
 <h1 align="left">Social Media</h1>
 <a href="https://www.tiktok.com/@azfamahardika__">TikTok</a> <br>
