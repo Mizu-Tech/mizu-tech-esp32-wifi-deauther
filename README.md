@@ -91,9 +91,12 @@ After a successful installation, you can turn on the device and ready to use.
   <li>Once the device is powered on, go to wifi settings and connect your device to the SSID "Galaxy A55 5G" or "ESP32", this is the internal wifi alias of the ESP32 and this is just localhost</li>
   <li>After connected to wifi, open your browser and go to page 199.125.24.3 (it is recommended to open it using Chrome)</li>
   <li>After the IP is entered, the browser will display a panel
-    
+    <p>
+      <img src="assets/web_panel-1.png" width="400"> 
+<img src="assets/web_panel-2.png" width="400">
+    </p>
   </li>
-  <li></li>
+  <li>DEAUTH ATTACK: Used to manipulate the target so that the target forcibly disconnects the client connection.</li>
 </ul>
 <br> NOTE
 <blockquote>If the device cannot connect to wifi, turn off VPN and custom DNS, make sure the web panel is opened in a site state without SSL/TLS (don't worry, this is just localhost).</blockquote>
