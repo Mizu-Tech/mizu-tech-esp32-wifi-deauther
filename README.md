@@ -117,7 +117,7 @@ After a successful installation, you can turn on the device and ready to use.
 <blockquote>If you want to execute a command, always make sure the device is connected to the ESP32's internal WiFi first and also make sure the device is offline.</blockquote>
 
 <h1 align="left">Similiar Project</h1>
-<a href="https://sparks.gogo.co.nz/assets/_site_/downloads/CH34x_Install_Windows_v3_4.zip">ESP32 Jammer</a>
+<a href="https://github.com/Mizu-Tech/mizu-tech-esp32-wifi-ble-jammer.git">ESP32 Jammer</a>
 
 <h1 align="left">Social Media</h1>
 <a href="https://www.tiktok.com/@azfamahardika__">TikTok</a> <br>
