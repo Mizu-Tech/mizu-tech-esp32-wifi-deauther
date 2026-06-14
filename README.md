@@ -61,10 +61,10 @@ Firmware : esp32-deauther-v4.0
 <h1 align="left">Instructions</h1>
 <h3 align="left">➤ STEP 1 : Wiring </h3>
 <p>
-<img src="hardware/esp32_wroom-32u.jpg" width="400">
+<img src="hardware/esp32_wroom-32u.jpg" width="400"> 
 <img src="hardware/ufl_antenna.jpeg" width="400">
 </p>
-Just connect the antenna to the ESP32 then power it either via the USB port or the VIN pin, make sure the U.FL port is connected firmly,
+Just connect the antenna to the ESP32 then power it either via the USB port or the VIN pin, Make sure the U.FL port is connected firmly.
 <h1></h1>
 
 <h3 align="left">➤ STEP 2 : Uploading firmware </h3>
@@ -84,47 +84,22 @@ After the antenna is successfully connected to the ESP32, open the web flasher a
 <blockquote>If the COM port is not detected, try using another laptop port and make sure to use a data cable (not a charging cable).</blockquote>
 
 <h3 align="left">➤ STEP 3 : Explanation</h3>
-After a successful installation, you can turn on the device. Make sure your hardware wiring is correct.
+After a successful installation, you can turn on the device and ready to use.
 
-<h3 align="left">> RESULT (oled version)</h3>
-<h4 align="left">Prototype</h4>
-<img src="assets/tool.jpeg" width="500">
-<h4 align="left">Random hopping mode</h4>
-<img src="assets/hopping_mode.jpeg" width="500">
-<h4 align="left">Sequential mode</h4>
-<img src="assets/sequential_mode.jpeg" width="500">
-<h4 align="left">Spectrum analyzer</h4>
-<img src="assets/spectrum_analyzer.jpeg" width="500">
-You can build your own version of the prototype. <br>
-LCD version review is in the DEMO video, or click here <a href="https://www.tiktok.com/@azfamahardika__/photo/7632892815738932498?is_from_webapp=1&sender_device=pc&web_id=7642704300384585223">LCD prototype</a>.
-<h1></h1>
-
-<h3 align="left">> HOW TO USE ?</h3>
-
-<h4 align="left">For OLED version firmware</h4>
-
+<h3 align="left"> HOW TO USE ?</h3>
 <ul>
-  <li>At the top left is the radio status indicator (N1, N2, N3)</li>
-  <li>At the top right is the channel range indicator</li>
-  <li>Press to change attack mode (Hopping, Cross, Hunter, Sequential)</li>
-  <li>Hold to enter spectrum analyzer mode</li>
+  <li>Once the device is powered on, go to wifi settings and connect your device to the SSID "Galaxy A55 5G", this is the internal wifi alias of the ESP32 and this is just localhost</li>
+  <li>After connected to wifi, open your browser and go to page 199.125.24.3 (it is recommended to open it using Chrome)</li>
+  <li>After the IP is entered, the browser will display a panel
+    
+  </li>
+  <li></li>
 </ul>
-
-<p><i>*You can change attack modes to find the most effective technique.</i></p>
-
-<h4 align="left">For LCD version firmware</h4>
-
-<ul>
-  <li>After booting, the LCD displays the NRF status</li>
-  <li>Press to change system mode (WIFI, BLE, DRONE, FULLBAND)</li>
-  <li>Hold to change attack mode (Random Hopping or Cross Sweeping)</li>
-</ul>
-
-<p><i>*You can switch system mode according to the target.</i></p>
-
-<h1 align="left"> !! READ THIS !!</h1>
-<blockquote><h4 align="left">If the power supply voltage doesn't reach 5V, I recommend purchasing a boost converter to increase the voltage to 5V. However, if the voltage is above 5V, it's best to purchase a buck converter to lower the voltage so your ESP32 doesn't burn out.</h4></blockquote>
-<blockquote><h4 align="left"> If the NRF24 or ML01DP5 is powered directly from the battery, ensure the voltage is at 3.3V (3.6V is the maximum). Anything below this limit will reduce jamming performance, including range. Too high a voltage can also cause the module to burn out.</h4></blockquote>
+<br> NOTE
+<blockquote>If the device cannot connect to wifi, turn off VPN and custom DNS, make sure the web panel is opened in a site state without SSL/TLS (don't worry, this is just localhost).</blockquote>
+<blockquote>If the web panel is still inaccessible (usually on an iPhone), you just need to tinker with the Network settings, this happens because the system considers the web panel a threat</blockquote>
+<blockquote>Turn off your cellular data if you access the web panel using a smartphone, make sure the device is offline and only connected to the "Galaxy A55 5G" wifi.</blockquote>
+<blockquote>If you access the panel using a desktop, use a chrome extension to force the web panel to disable SSL/TLS (force HTTP)</blockquote>
 
 <h1 align="left">Social Media</h1>
 <a href="https://www.tiktok.com/@azfamahardika__">TikTok</a> <br>
