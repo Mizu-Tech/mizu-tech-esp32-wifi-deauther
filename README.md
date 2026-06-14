@@ -121,6 +121,7 @@ After a successful installation, you can turn on the device and ready to use.
 
 <h1 align="left">Similiar Project</h1>
 <a href="https://github.com/Mizu-Tech/mizu-tech-esp32-wifi-ble-jammer.git">ESP32 Jammer</a>
+<br>
 <a href="https://github.com/Mizu-Tech/mizu-tech-esp32-ble-jammer-wifi-deauther.git">ESP32 Jammer & Deauther</a>
 
 <h1 align="left">Social Media</h1>
