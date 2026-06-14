@@ -14,6 +14,9 @@
 <h1 align="left">ESP32 WIFI DEAUTHER 2.4GHz</h1>
 <h4 align="left">
 This firmware is quite powerful for disconnecting clients from Wi-Fi. You only need the SSID, BSSID, and Channel to perform deauthentication.
+  <br>
+  <br>
+Read till the end for the complete guide, make sure you don't miss any part.
 </h4>
 
 <h1 align="left">Changelog</h1>
