@@ -92,17 +92,25 @@ After a successful installation, you can turn on the device and ready to use.
   <li>After connected to wifi, open your browser and go to page 199.125.24.3 (it is recommended to open it using Chrome)</li>
   <li>After the IP is entered, the browser will display a panel
     <p>
-      <img src="assets/web_panel-1.png" width="400"> 
-<img src="assets/web_panel-2.png" width="400">
+      <img src="assets/web_panel-1.png" width="800"> 
+<img src="assets/web_panel-2.png" width="800">
     </p>
   </li>
-  <li>DEAUTH ATTACK: Used to manipulate the target so that the target forcibly disconnects the client connection.</li>
+  <li><b>DEAUTH ATTACK :</b> Used to manipulate the target so that the target forcibly disconnects the client connection.</li>
+<li><b>EVIL TWIN :</b> Used to change the internal Wi-Fi SSID name to the target SSID name. It's good to use after a deauth attack is complete. If the client is fooled, they'll open the fake SSID and enter the phishing portal capture website.
+ <img src="assets/capture_login.png" width="800">
+</li>
+  <li><b>WIFI SPAMMER :</b> Used to spam empty SSIDs into the air, the longer the SSID characters the fewer SSIDs that successfully fly into the air.</li>
+  <li><b>CAPTURED DATA :</b> Captures the password entered by the client if they enter a fake SSID (Evil Twin) on the capture portal page.</li>
 </ul>
+
 <br> NOTE
 <blockquote>If the device cannot connect to wifi, turn off VPN and custom DNS, make sure the web panel is opened in a site state without SSL/TLS (don't worry, this is just localhost).</blockquote>
 <blockquote>If the web panel is still inaccessible (usually on an iPhone), you just need to tinker with the Network settings, this happens because the system considers the web panel a threat.</blockquote>
 <blockquote>Turn off your cellular data if you access the web panel using a smartphone, make sure the device is offline and only connected to the ESP32 internal wifi.</blockquote>
 <blockquote>If you access the panel using a desktop, use a chrome extension to force the web panel to disable SSL/TLS (force HTTP).</blockquote>
+<blockquote>Don't spam commands; wait for one process to complete before executing another. It's recommended to execute "STOP ALL ATTACKS" first.</blockquote>
+<blockquote>If you want to execute a command, always make sure the device is connected to the ESP32's internal WiFi first and also make sure the device is offline.</blockquote>
 
 <h1 align="left">Social Media</h1>
 <a href="https://www.tiktok.com/@azfamahardika__">TikTok</a> <br>
