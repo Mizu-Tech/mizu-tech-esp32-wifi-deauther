@@ -31,22 +31,14 @@ The firmware is paid, to access the flasher you have to buy the firmware first t
 Thank you for your support ^_^
 
 <h1 align="left">Web Flasher</h1>
-<h4 align="left">Authentication required (for paid version)</h4>
+<h4 align="left">Authentication required</h4>
 <img src="assets/login.png" width="800">
 <h4 align="left">Connect the ESP32 to the laptop USB then install the firmware</h4>
 <img src="assets/flash.png" width="800">
 
-Firmware : esp32-jammer-lcd-v1.0 (FREE)
+Firmware : esp32-deauther-v4.0
 <blockquote>
-<a href="https://flasher-esp32-jammer-free.vercel.app">Web flasher 1</a>
-</blockquote>
-Firmware : esp32-jammer-lcd-v4.0 (PAID)
-<blockquote>
-<a href="https://firmware-esp32-jammer-lcd.vercel.app">Web flasher 2</a>
-</blockquote>
-Firmware : esp32-jammer-oled-v4.0 (PAID)
-<blockquote>
-<a href="https://firmware-esp32-jammer-oled.vercel.app">Web flasher 3</a>
+<a href="https://flasher-esp32-wifi-deauther.vercel.app/">Web flasher</a>
 </blockquote>
 <h4 align="left">Paid flasher cannot be accessed if using a github account that is not registered as a buyer.</h4>
 
