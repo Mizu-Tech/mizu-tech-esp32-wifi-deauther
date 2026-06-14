@@ -94,7 +94,7 @@ After a successful installation, you can turn on the device and ready to use.
 
 <h3 align="left"> HOW TO USE ?</h3>
 <ul>
-  <li>Once the device is powered on, go to wifi settings and connect your device to the SSID "Galaxy A55 5G" or "ESP32", this is the internal wifi alias of the ESP32 and this is just localhost</li>
+  <li>Once the device is powered on, go to wifi settings and connect your device to the SSID "Galaxy A55 5G", this is the internal wifi alias of the ESP32 and this is just localhost</li>
   <li>After connected to wifi, open your browser and go to page 199.125.24.3 (it is recommended to open it using Chrome)</li>
   <li>After the IP is entered, the browser will display a panel
     <p>
