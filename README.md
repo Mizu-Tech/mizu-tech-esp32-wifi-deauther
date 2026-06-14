@@ -60,14 +60,15 @@ Firmware : esp32-deauther-v4.0
 
 <h1 align="left">Instructions</h1>
 <h3 align="left">➤ STEP 1 : Wiring </h3>
-<h4 align="left">ESP32 WROOM 32U</h4>
+<p>
 <img src="hardware/esp32_wroom-32u.jpg" width="400">
 <img src="hardware/ufl_antenna.jpeg" width="400">
-You can also use the ML01DP5 module, the pin configuration is exactly the same as the NRF24L01.
+</p>
+Just connect the antenna to the ESP32 then power it either via the USB port or the VIN pin, make sure the U.FL port is connected firmly,
 <h1></h1>
 
 <h3 align="left">➤ STEP 2 : Uploading firmware </h3>
-After the wiring and pin configuration process is complete, open the web flasher and select the firmware to be used. Make sure your internet connection is stable to anticipate failure of the installation process.
+After the antenna is successfully connected to the ESP32, open the web flasher and select the firmware to be compiled. Make sure your internet connection is stable to anticipate failure of the installation process.
 <br>
 <br>Click here to view the <a href="https://youtu.be/nAdMXXIz-rI">TUTORIAL VIDEO</a>.
 
