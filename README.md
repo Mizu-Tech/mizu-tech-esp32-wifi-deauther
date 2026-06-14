@@ -61,75 +61,10 @@ Firmware : esp32-deauther-v4.0
 <h1 align="left">Instructions</h1>
 <h3 align="left">➤ STEP 1 : Wiring </h3>
 <h4 align="left">ESP32 WROOM 32U</h4>
-<img src="hardware/esp32 wroom.png" width="800">
-<h4 align="left">NRF24L01</h4>
+<img src="hardware/esp32_wroom-32u.png" width="800">
 <img src="hardware/nrf24l01.png" width="800">
-<h4 align="left">Ebyte ML01DP5</h4>
-<img src="hardware/ebyte ml01dp5.png" width="800">
 You can also use the ML01DP5 module, the pin configuration is exactly the same as the NRF24L01.
 <h1></h1>
-
-<h3 align="left"> WIRING SCHEME </h3>
-<h4 align="left">If using 3 NRF, this scheme for you</h4>
-<img src="wiring schema/3nrf.png" width="800">
-
-<h4 align="left">Use this one if using an adapter (recommended)</h4>
-<img src="wiring schema/3nrf + adapter.png" width="800">
-
-<h4 align="left">But, you can also use 2 NRF with a scheme like this</h4>
-<img src="wiring schema/2nrf.png" width="800">
-You can replace the LCD with an OLED, don't worry, the pin configuration is exactly the same using I2C.<br>
-Attach the 2.4GHz antenna to the end of the module. Make sure the ports are aligned.
-<h1></h1>
-
-<h3 align="left">PIN CONFIGURATION</h3>
-<p align="left"><b>NRF 1 (HSPI)</b></p>
-<ul>
-  <li>VCC (+) = 3.3V</li>
-  <li>GND (-) = GND</li>
-  <li>CE = 26</li>
-  <li>CSN = 27</li>
-  <li>SCK = 14</li>
-  <li>MOSI = 13</li>
-  <li>MISO = 12</li>
-</ul>
-<p align="left"><b>NRF 2 (VSPI)</b></p>
-<ul>
-  <li>VCC (+) = 3.3V</li>
-  <li>GND (-) = GND</li>
-  <li>CE = 17</li>
-  <li>CSN = 5</li>
-  <li>SCK = 18</li>
-  <li>MOSI = 23</li>
-  <li>MISO = 19</li>
-</ul>
-<p align="left"><b>NRF 3 (HSPI)</b></p>
-<ul>
-  <li>VCC (+) = 3.3V</li>
-  <li>GND (-) = GND</li>
-  <li>CE = 32</li>
-  <li>CSN = 33</li>
-  <li>SCK = 14</li>
-  <li>MOSI = 13</li>
-  <li>MISO = 12</li>
-</ul>
-<p align="left"><b>OLED 128x64 || LCD 16x2</b></p>
-<ul>
-  <li>VCC (+) = 5V</li>
-  <li>GND (-) = GND</li>
-  <li>SDA = 21</li>
-  <li>SCL = 22</li>
-</ul>
-<p align="left"><b>PUSH BUTTON</b></p>
-<ul>
-  <li>IN = 25</li>
-  <li>OUT = GND</li>
-</ul>
-
-<h4 align="left">Note</h4>
-<blockquote>For dual NRF, you can use HSPI and VSPI configurations. For a single NRF, choose one of the SPI configurations.<br></blockquote>
-<blockquote>For the power source, you can use an external battery connected to the VIN of the ESP32 or just use the USB port.<br></blockquote>
-<blockquote>You can't change the hardware pin configuration because everything is set using the flasher.<br></blockquote>
 
 <h3 align="left">➤ STEP 2 : Uploading firmware </h3>
 After the wiring and pin configuration process is complete, open the web flasher and select the firmware to be used. Make sure your internet connection is stable to anticipate failure of the installation process.
